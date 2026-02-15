@@ -3,7 +3,7 @@ import { useGLTF, OrbitControls, Float, ContactShadows, Environment } from "@rea
 import { Suspense } from "react"
 
 function Model() {
-    const { scene } = useGLTF("/model.glb")
+    const { scene } = useGLTF("/pharmacy/model.glb")
     
     return (
         <primitive 
